@@ -12,6 +12,17 @@ gem 'grape'
 gem "grape-active_model_serializers"
 gem "grape-swagger-rails"
 gem "rack-cors", require: "rack/cors"
+# Enable tagging
+gem 'acts-as-taggable-on',      '~> 3.4'
+
+gem 'carrierwave',             '0.10.0'
+gem 'rmagick', require: false
+gem 'unf'
+gem 'fog',                     '1.23.0'
+gem 'mime-types'
+
+# Synchronize assets with S3
+gem 'asset_sync',              group: :assets
 
 group :development do
   gem "better_errors"
@@ -40,8 +51,14 @@ group :development, :test do
   gem "pry-stack_explorer"
   gem "pry-theme"
   gem "rspec-rails"
+  gem 'rspec-its'
   gem "rubocop"
   gem "shoulda-matchers"
   gem "spring-commands-rspec"
+  gem 'spork-rails', github: 'sporkrb/spork-rails'
+  gem 'guard-spork'
+    # Mock external services
+  gem 'webmock'  
+  gem 'simplecov', :require => false
 end
 

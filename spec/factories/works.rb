@@ -5,5 +5,8 @@ FactoryGirl.define do
     date  -450
     place "Chicago"
     circa false
+    trait :tagged do
+      after(:create) { |work| work.update_attributes(creator_list: 'Plato', mode_list:"Philosophy", reference_list: "Bertrand") }
+    end
   end
 end

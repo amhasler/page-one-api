@@ -40,23 +40,23 @@ describe Work do
     end
   end
 
-  # describe "#destroy" do
-    # let(:n) { 2 }
-    # let!(:media) { Array.new(n){ FactoryGirl.create(:audio_medium, work: work)} }
-    # let!(:resources) { Array.new(n){ FactoryGirl.create(:resource, work: work)} }
+  describe "#destroy" do
+    let(:n) { 2 }
+    let!(:media) { Array.new(n){ FactoryGirl.create(:image_medium, work: work)} }
+    let!(:resources) { Array.new(n){ FactoryGirl.create(:resource, work: work)} }
 
 
-  #  before :each do
-  #    work.save!
-  #    work.destroy
-  #  end
+    before :each do
+      work.save!
+      work.destroy
+    end
 
-  #  it "will destroy all its media" do
-  #    media.each{ |medium| Medium.exists?(medium.id).should == false }
-  #  end
+    it "will destroy all its media" do
+      media.each{ |medium| Medium.exists?(medium.id).should == false }
+    end
 
-  #  it "will destroy all its resources" do
-  #    resources.each{ |resource| Resource.exists?(resource.id).should == false }
-  #  end
-  # end
+    it "will destroy all its resources" do
+      resources.each{ |resource| Resource.exists?(resource.id).should == false }
+    end
+  end
 end
