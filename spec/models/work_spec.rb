@@ -40,6 +40,7 @@ describe Work do
     end
   end
 
+=begin
   describe "#destroy" do
     let(:n) { 2 }
     let!(:media) { Array.new(n){ FactoryGirl.create(:image_medium, work: work)} }
@@ -59,4 +60,5 @@ describe Work do
       resources.each{ |resource| Resource.exists?(resource.id).should == false }
     end
   end
+=end
 end
