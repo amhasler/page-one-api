@@ -2,6 +2,7 @@ require 'rails_helper'
 require 'requests/shared_examples/json_response_work_shared'
 
 describe API do
+=begin
   describe "GET /api/v1/works/" do
     it "returns an array of works" do
       get "/api/v1/works"
@@ -85,7 +86,7 @@ describe API do
       expect(new_work.circa).to eql(work_data[:circa])
     end
   end
-
+=end
   describe "PUT /api/v1/works/work_id" do
     let(:user) { FactoryGirl.create(:user) }
     let(:collection) { FactoryGirl.create(:collection, user: user) }
@@ -108,7 +109,8 @@ describe API do
 
       before :each do
         work_data[:title] = work_title
-        # put "/api/v1/works/#{work.id}", work_data
+        put "/api/v1/works/#{work.id}", work_data
+        puts response
         work.reload
       end
 
@@ -121,7 +123,7 @@ describe API do
       end
     end
   end
-
+=begin
   describe "DESTROY /api/v1/works/work_id" do
     let(:user) { FactoryGirl.create(:user) }
     let(:collection) { FactoryGirl.create(:collection, user: user) }
@@ -139,4 +141,5 @@ describe API do
       expect(Work.exists?(work.id)).to be false
     end
   end
+=end
 end

@@ -3,6 +3,6 @@ class CollectionSerializer < ActiveModel::Serializer
 
   attributes :id, :title
 
-  has_many :works, embed: :objects, include: true, key: :works
+  has_many :works, embed: :ids, include: true, key: :works
 
 end
