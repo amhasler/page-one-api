@@ -4,6 +4,11 @@ module API
       include API::V1::Defaults
 
       resource :collections do
+        desc "Return all collections"
+        get "", root: :collections do
+          Collection.all
+        end
+
         desc "Return a collection"
         params do
           requires :id, type: String, desc: "ID of the collection"

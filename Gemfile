@@ -20,9 +20,11 @@ gem 'rmagick', require: false
 gem 'unf'
 gem 'fog',                     '1.23.0'
 gem 'mime-types'
+gem 'grape-rails-routes'
 
 # Synchronize assets with S3
 gem 'asset_sync',              group: :assets
+
 
 group :development do
   gem "better_errors"
