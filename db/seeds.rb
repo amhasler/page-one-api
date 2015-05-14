@@ -1,7 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+require "#{Rails.root.join('db')}/parse_collection_csv"
+require "pp"
+
+editor_adam = Utility::create_editor("Adam Hasler", "amhasler@gmail.com", "coltrane")
+
+pp "=== Western Canon ==="
+dir = Rails.root.join('db',  'seeds', 'western-canon')
+
+western_canon_resources = ParseCollectionCSV::parse_resources(dir)
+western_canon_collection = ParseCollectionCSV::parse_collection(editor_adam, western_canon_resources, dir)
