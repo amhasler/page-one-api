@@ -2,176 +2,176 @@
 "title","number_works",,,,,
 "The Western Canon",25,,,,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"The Dome of the Rock",690,true,"Jerusalem",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"The Dome of the Rock",690,,true,"Jerusalem",31.770345,35.217416
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Basilica of Constantius Chlorus","325",true,"Trier, Germany",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Basilica of Constantius Chlorus",300,325,false,"Trier, Germany",49.752157,6.634010
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Porta Marzia","-150",true,"Perugia, Italy",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Porta Marzia",-200,-100,false,"Perugia, Italy",43.103072,12.416617
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Apollo",-510,true,"Isola Farnese, Italy",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Apollo",-510,,true,"Isola Farnese, Italy",42.016965,12.380540
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"The Akropolis",421,true,"Athens, Greece"
+"title","min_date","max_date","circa","place","latitude","longitude"
+"The Akropolis",447,432,false,"Athens, Greece",37.971943,23.726456
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Palace of Diocletian",300,true,"Spalato, Croatia"
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Palace of Diocletian",300,275,false,"Spalato, Croatia",43.508627,16.441101
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"The Well of Moses",1400,true,"Dijon, France",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"The Well of Moses",1395,1406,false,"Dijon, France",47.321642,5.042006
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Altarpiece of Saint Clare",1280,true,"Assisi, Italy",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Altarpiece of Saint Clare",1280,,true,"Assisi, Italy",43.070635,12.619925
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Saint Francis Preaching to the Birds",1295,true,"Assisi, Italy",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Saint Francis Preaching to the Birds",1290,1300,false,"Assisi, Italy",43.070635,12.619925
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"St. Michael's at Hildesheim",1015,true,"Hildesheim, Germany",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"St. Michael's at Hildesheim",1001,1033,true,"Hildesheim, Germany",52.155414,9.955481
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Christ in Majesty",1096,true,"Toulouse, France",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Godescalc Gospels",781,783,false,"Aachen, Germany",50.777485,6.090688
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Cathedral of Saint-Lazare",1128,true,"Autun, France"
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Cathedral of Saint-Lazare",1120,1132,true,"Autun, France",46.950608,4.299484
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Cathedral of Santiago de Compostela",1097,true,"Santiago de Compostela",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Cathedral of Santiago de Compostela",1075,1120,true,"Santiago de Compostela",42.877060,-8.544512
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Moralia in Job",1111,false,"Dijon, France",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Moralia in Job",1111,,false,"Dijon, France",47.322805,5.040289
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Gospel Book of Abbot Wedricus",1147,true,"Nord-Pas-de-Calais, France",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Gospel Book of Abbot Wedricus",1147,,true,"Nord-Pas-de-Calais, France",50.362867,3.068049
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Notre-Dame-la-Grande",1125,true,"Poitiers, France",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Notre-Dame-la-Grande",1100,1125,false,"Poitiers, France",46.582746,0.341429
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Column of Trajan",109,true,"Rome, Italy",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Column of Trajan",109,,true,"Rome, Italy",41.904450,12.491023
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Portrait of a Woman",120,true,"Fayum, Egypt",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Portrait of a Woman",110,130,true,"Fayum, Egypt",29.309475,30.844475
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Mausoleum of Galla Placidia",431,true,"Ravenna, Italy",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Mausoleum of Galla Placidia",425,450,false,"Ravenna, Italy",44.417110,12.213106
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Anastasis at Kariye Camii",1315,true,"Istanbul, Turkey",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Anastasis at Kariye Camii",1310,1320,true,"Istanbul, Turkey",41.010503,28.977161
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"The Lindisfarne Gospels",700,true,"Durham, England",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"The Lindisfarne Gospels",700,,true,"Durham, England",54.774231,-1.584681
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Portrait of Menander",70,true,"Pompeii, Italy",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Portrait of Menander",70,,true,"Pompeii, Italy",40.746620,14.499261
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Virgin of Essen",980,true,"Essen, Germany",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Virgin of Essen",980,,true,"Essen, Germany",51.455224,7.013713
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Salisbury Cathedral",1240,true,"Salisbury, England",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Salisbury Cathedral",1220,1265,false,"Salisbury, England",51.068602,-1.792121
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,
 "title","link","description","work",,,
 "WORK",,,,,,
-"title","date","circa","place",,,
-"Madonna Enthroned",1285,true,"Florence, Italy",,,
+"title","min_date","max_date","circa","place","latitude","longitude"
+"Madonna Enthroned",1280,1290,true,"Florence, Italy",43.770290,11.256932
 "MEDIA",,,,,,
 "image_attachment","audio_attachment","caption","video","content_type","featured","work"
 "RESOURCES",,,,,,

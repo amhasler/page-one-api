@@ -1,5 +1,5 @@
 class WorkSerializer < ActiveModel::Serializer
-  attributes :id, :title, :date, :circa, :place, :created_at, :updated_at
+  attributes :id, :title, :min_year, :max_year, :longitude, :latitude, :circa, :place, :created_at, :updated_at
 
   # has_one   :collection, embed: :id, include: false
   # has_many  :creators, embed: :id, include: true

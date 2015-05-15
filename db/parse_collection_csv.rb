@@ -31,7 +31,10 @@ module ParseCollectionCSV
       CSV.parse(work_information, headers: true, converters: :all) do |row|
         work.title = row["title"]
         work.place = row["place"]
-        work.date = row["date"]
+        work.latitude = row["latitude"]
+        work.longitude = row["longitude"]
+        work.min_year = row["min_date"]
+        work.max_year = row["max_date"]
         work.circa = row["circa"]
       end
 
